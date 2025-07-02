@@ -1,3 +1,7 @@
-# Mathematics-in-Market-Analysis
+# Mathematical-Market-Analysis
 
-Explored different methods for the valuation of options within the framework of the Black-Scholes pricing model with the use of Python.
+* Implemented Monte Carlo and Black-Scholes models in R/C++ (Rcpp) for European and Asian option pricing, achieving 88-94% performance improvement through optimized C++ implementations
+
++ Validated Monte Carlo convergence against analytical Black-Scholes solutions across 100 to 1M simulations, demonstrating theoretical 1/√n convergence rate with statistical accuracy
+
+- Benchmarked computational performance of R vs C++ for arithmetic/geometric Asian options, documenting consistent 10x speedup and linear scalability across simulation sizes
